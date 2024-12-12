@@ -28,7 +28,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
       {images.map((src, index) => (
         <div
           key={src}
-          className={`absolute w-full h-full transition-opacity duration-1000 ease-in-out ${
+          className={`absolute w-full h-3/5 transition-opacity duration-1000 ease-in-out ${
             index === currentIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
@@ -41,7 +41,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
           />
         </div>
       ))}
-      <div className="absolute bottom-14 left-0 right-0 flex justify-center space-x-2">
+      <div className="absolute bottom-72 left-0 right-0 flex justify-center space-x-2">
         {images.map((_, index) => (
           <button
             key={index}
