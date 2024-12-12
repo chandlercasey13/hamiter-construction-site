@@ -17,7 +17,7 @@ const MobileMenu = () => {
       {/* Hamburger Icon */}
       <button
         onClick={toggleMenu}
-        className="fixed top-4 right-4 z-50 p-2 rounded-md bg-white text-black"
+        className="fixed top-2 right-4 z-50 p-2 rounded-md bg-white text-black"
         aria-label={isOpen ? "Close menu" : "Open menu"}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -25,11 +25,11 @@ const MobileMenu = () => {
 
       {/* Sliding Menu */}
       <div
-        className={`fixed top-16 right-0 bottom-0 w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-14 right-0 bottom-0 w-64 h-screen   bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } z-40`}
       >
-        <nav className="flex flex-col h-full py-4">
+        <nav className="flex flex-col  py-4">
           <Link href="/" className="py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={toggleMenu}>
             Home
           </Link>
