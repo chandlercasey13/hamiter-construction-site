@@ -17,7 +17,7 @@ const MobileMenu = () => {
       {/* Hamburger Icon */}
       <button
         onClick={toggleMenu}
-        className="fixed top-4 right-4 z-50 p-2 rounded-md bg-gray-800 text-white"
+        className="fixed top-4 right-4 z-50 p-2 rounded-md bg-white text-black"
         aria-label={isOpen ? "Close menu" : "Open menu"}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
