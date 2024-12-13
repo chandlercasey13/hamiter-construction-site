@@ -33,12 +33,33 @@ const MobileMenu = () => {
           <Link href="/" className="py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={toggleMenu}>
             Home
           </Link>
-          <Link href="/about" className="py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={toggleMenu}>
+          
+          <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
+             const target = document.getElementById("services-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+            toggleMenu(); 
+         
+      }}>
+        Services
+        </button>
+          <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
+             const target = document.getElementById("about-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+                toggleMenu(); 
+             
+          }}>
             About
-          </Link>
-          <Link href="/services" className="py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={toggleMenu}>
-            Services
-          </Link>
+          </button>
           <Link href="/contact" className="py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={toggleMenu}>
             Contact
           </Link>
