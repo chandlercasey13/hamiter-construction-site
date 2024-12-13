@@ -24,14 +24,8 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
   }, [images.length, interval])
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto h-screen overflow-hidden ">
-          <div className="absolute top-0 w-full p-6 pt-0 z-30">  
-              <h1 className="absolute top-20 z-30 text-white text-3xl font-bold">Hamiter Construction Company</h1>
-           
-            <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
-            
-            <Button className="absolute top-48 z-30 bg-green-500 opacity-90">Contact Us</Button>
-            </div>
+    <div className="relative w-full max-w-3xl mx-auto h-80 overflow-hidden ">
+          
       {images.map((src, index) => (
         <div
           key={src}
@@ -49,7 +43,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
           />
         </div>
       ))}
-      {/* <div className="absolute bottom-72 left-0 right-0 flex justify-center space-x-2">
+      <div className="absolute bottom-6 left-0 right-0 flex justify-center space-x-2">
         {images.map((_, index) => (
           <button
             key={index}
@@ -60,7 +54,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
-      </div> */}
+      </div>
     </div>
   )
 }
