@@ -2,6 +2,7 @@ import Carousel from "@/components/carousel"
 
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
+import { ContactForm } from '../components/contact-form'
 const images = [
 
   // 'https://www.aplaceformom.com/image/apfm-web-api/493754/skyline-residential-homes-care-homes-garland-tx.jpg?t=web_apfm_community_thumbnails',
@@ -17,7 +18,7 @@ const images = [
 
 export default function Home() {
     return (
-      <div className=" flex flex-col items-center justify-start w-full h-[400vh] bg-white text-black  ">
+      <div className=" flex flex-col items-center justify-start w-full h-auto bg-white text-black  ">
         
       
          
@@ -73,7 +74,7 @@ export default function Home() {
 
 
 
-     <div className="px-6">
+     <div className="px-6 h-96">
 
      
      <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p>
@@ -83,6 +84,17 @@ export default function Home() {
         Nulla quis sem at nibh elementum imperdiet.</p>
      
      </div>
+     
+
+
+     <div className="min-h-40 w-full flex flex-col items-center justify-start  ">
+      <div className="w-full max-w-md p-8 pt-0 space-y-8 bg-white">
+        <h1 className="text-3xl font-semibold text-start">Contact Us</h1>
+        <ContactForm />
+      </div>
+    </div>
+
+
      
       </div>
 
