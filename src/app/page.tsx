@@ -27,7 +27,7 @@ export default function Home() {
          
           
           <div className=" relative w-full h-80 flex flex-col items-center justify-center bg-gray-800">
-          <div className="absolute top-0 w-full p-6 pt-0 z-30">  
+          <div className="absolute top-0 w-full p-7 pt-0 z-30">  
               <h1 className="absolute top-20 z-30 text-white text-3xl font-bold">Hamiter Construction Company</h1>
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
@@ -97,14 +97,14 @@ export default function Home() {
      
 
 
-     <div id="contact-section" className="min-h-40 w-full flex flex-col items-center justify-start mb-20 ">
-      <div className="w-full max-w-md p-6 pt-0 space-y-4 bg-white">
-        <h1 className="text-3xl font-semibold text-start">Contact Us</h1>
+     <div id="contact-section" className="min-h-40 w-full flex flex-col items-center justify-start mb-12 ">
+      <div className="w-full max-w-md p-6 pt-0 space-y-4 bg-white mb-10">
+        <h1 className="text-3xl font-semibold text-start pb-2">Contact Us</h1>
         <ContactForm />
       </div>
 
 
-      <div className="h-8 w-full border-t mt-16"></div>
+      <div className="h-2 w-full border-t "></div>
 
 
     </div>
