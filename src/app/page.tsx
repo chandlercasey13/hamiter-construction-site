@@ -50,7 +50,7 @@ export default function Home() {
 
      <div className="px-6">
 
-     <img src="house1.jpg" id="about-section" className="h-50 w-full"></img>
+     <img alt="picture 2" src="house1.jpg" id="about-section" className="h-50 w-full"></img>
      <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p>
      <h2 className="text-3xl font-semibold ">Quality Service from a committed company.</h2>
      <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
