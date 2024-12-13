@@ -55,6 +55,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
           />
         ))}
       </div>
+      
     </div>
   )
 }

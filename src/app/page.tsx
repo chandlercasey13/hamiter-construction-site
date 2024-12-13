@@ -41,7 +41,7 @@ export default function Home() {
           />
 
     </div>
-<div className="px-6">
+<div className="px-6 ">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
      <h2 id="services-section" className="text-3xl font-semibold mt-8 ">Expert Solutions for your General Contracting Needs</h2>
@@ -74,7 +74,7 @@ export default function Home() {
 
 
 
-     <div className="px-6 h-96">
+     <div className="px-6 mb-20 ">
 
      
      <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p>
@@ -87,8 +87,8 @@ export default function Home() {
      
 
 
-     <div className="min-h-40 w-full flex flex-col items-center justify-start  ">
-      <div className="w-full max-w-md p-8 pt-0 space-y-8 bg-white">
+     <div className="min-h-40 w-full flex flex-col items-center justify-start mb-40 ">
+      <div className="w-full max-w-md p-6 pt-0 space-y-8 bg-white">
         <h1 className="text-3xl font-semibold text-start">Contact Us</h1>
         <ContactForm />
       </div>
