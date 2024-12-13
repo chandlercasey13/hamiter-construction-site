@@ -1,3 +1,6 @@
+"use client";
+
+
 import Carousel from "@/components/carousel"
 
 import Image from 'next/image'
@@ -29,7 +32,12 @@ export default function Home() {
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
             
-            <Button className="absolute top-48 z-30 bg-green-500 opacity-90">Get Started</Button>
+            <Button onClick={ ()=> {const target = document.getElementById("contact-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });}
+             }} className="absolute top-48 z-30 bg-green-500 opacity-90">Get Started</Button>
             </div>
          
           <Image
@@ -74,24 +82,31 @@ export default function Home() {
 
 
 
-     <div id="about-section" className="px-6 mb-20 ">
+     <div id="about-section" className="px-6 mb-14 ">
 
      
      <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p>
      <h2 className="text-3xl font-semibold ">Quality Service from a committed company.</h2>
      <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-        Nulla quis sem at nibh elementum imperdiet.</p>
+        Nulla quis sem at nibh elementum imperdiet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+        odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+        Nulla quis sem at nibh.</p>
      
      </div>
      
 
 
      <div id="contact-section" className="min-h-40 w-full flex flex-col items-center justify-start mb-20 ">
-      <div className="w-full max-w-md p-6 pt-0 space-y-8 bg-white">
+      <div className="w-full max-w-md p-6 pt-0 space-y-4 bg-white">
         <h1 className="text-3xl font-semibold text-start">Contact Us</h1>
         <ContactForm />
       </div>
+
+
+      <div className="h-8 w-full border-t mt-16"></div>
+
+
     </div>
 
 
