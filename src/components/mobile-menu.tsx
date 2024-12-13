@@ -30,9 +30,19 @@ const MobileMenu = () => {
         } z-40`}
       >
         <nav className="flex flex-col  py-4">
-          <Link href="/" className="py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={toggleMenu}>
-            Home
-          </Link>
+        <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
+             const target = document.getElementById("start-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+                toggleMenu(); 
+             
+          }}>
+           Home
+          </button>
           
           <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
              const target = document.getElementById("services-section");
@@ -60,9 +70,19 @@ const MobileMenu = () => {
           }}>
             About
           </button>
-          <Link href="/contact" className="py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={toggleMenu}>
+          <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
+             const target = document.getElementById("contact-section");
+             if (target) {
+               const offset = 100; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+                toggleMenu(); 
+             
+          }}>
             Contact
-          </Link>
+          </button>
         </nav>
       </div>
 
