@@ -27,7 +27,7 @@ export default function Home() {
          
           
           <div className=" relative w-full h-80 flex flex-col items-center justify-center bg-gray-800">
-          <div className="absolute top-0 w-full p-7 pt-0 z-30">  
+          <div className="absolute top-0 w-full p-9 pt-0 z-30">  
               <h1 className="absolute top-20 z-30 text-white text-3xl font-bold">Hamiter Construction Company</h1>
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
@@ -52,7 +52,7 @@ export default function Home() {
 <div className="px-6 ">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
-     <h2 id="services-section" className="text-3xl font-semibold mt-8 ">Expert Solutions for your General Contracting Needs</h2>
+     <h2 id="services-section" className="text-3xl font-semibold mt-12 ">Expert Solutions for your General Contracting Needs</h2>
      <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. 
         </p>
@@ -71,7 +71,7 @@ export default function Home() {
 <div className="px-6 w-full ">
 
 {/* <p  className="text-sm font-normal h-8 mt-8 mb-2"></p> */}
-<h2 className="text-3xl font-semibold mt-8 mb-4  ">Our Recent Work</h2>
+<h2 className="text-3xl font-semibold mt-12 mb-4  ">Our Recent Work</h2>
 <Carousel images={images} interval={5000} />
 {/* <img alt="picture 2" src="house1.jpg" id="about-section" className="h-50 w-full"></img> */}
 {/* <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
@@ -82,11 +82,11 @@ export default function Home() {
 
 
 
-     <div id="about-section" className="px-6 mb-14 ">
+     <div id="about-section" className="px-6 ">
 
      
-     <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p>
-     <h2 className="text-3xl font-semibold ">Quality Service from a committed company.</h2>
+     {/* <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p> */}
+     <h2 className="text-3xl font-semibold mt-12 ">Quality Service from a committed company.</h2>
      <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
         Nulla quis sem at nibh elementum imperdiet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
@@ -97,7 +97,7 @@ export default function Home() {
      
 
 
-     <div id="contact-section" className="min-h-40 w-full flex flex-col items-center justify-start mb-12 ">
+     <div id="contact-section" className="min-h-40 w-full flex flex-col items-center justify-start mb-12 mt-12 ">
       <div className="w-full max-w-md p-6 pt-0 space-y-4 bg-white mb-10">
         <h1 className="text-3xl font-semibold text-start pb-2">Contact Us</h1>
         <ContactForm />
