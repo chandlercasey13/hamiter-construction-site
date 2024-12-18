@@ -49,10 +49,10 @@ export default function Home() {
           />
 
     </div>
-<div className="px-6 ">
+<div className="px-7 mt-8">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
-     <h2 id="services-section" className="text-3xl font-semibold mt-12 ">Expert Solutions for your General Contracting Needs</h2>
+     <h2 id="services-section" className="text-3xl font-semibold  ">Expert Solutions for your General Contracting Needs</h2>
      <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. 
         </p>
@@ -68,10 +68,10 @@ export default function Home() {
 <br/>
 </div>
 
-<div className="px-6 w-full ">
+<div className="px-6 w-full mt-8 ">
 
 {/* <p  className="text-sm font-normal h-8 mt-8 mb-2"></p> */}
-<h2 className="text-3xl font-semibold mt-12 mb-4  ">Our Recent Work</h2>
+<h2 className="text-3xl font-semibold mb-4  ">Our Recent Work</h2>
 <Carousel images={images} interval={5000} />
 {/* <img alt="picture 2" src="house1.jpg" id="about-section" className="h-50 w-full"></img> */}
 {/* <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
@@ -86,7 +86,7 @@ export default function Home() {
 
      
      {/* <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p> */}
-     <h2 className="text-3xl font-semibold mt-12 ">Quality Service from a committed company.</h2>
+     <h2 className="text-3xl font-semibold mt-8 ">Quality Service from a committed company.</h2>
      <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
         Nulla quis sem at nibh elementum imperdiet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
