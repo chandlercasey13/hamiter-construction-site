@@ -59,12 +59,12 @@ export default function Home() {
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
      <h2 id="services-section" className="text-3xl font-semibold md:text-4xl  ">Expert Solutions for your General Contracting Needs</h2>
-     <p className="mt-6 md:text-xl"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+     <p className="mt-6 md:mt-10 font-medium md:text-xl"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. 
         </p>
 
         <br/>
-        <ul className="list-disc px-4 md:text-lg ">
+        <ul className="list-disc px-4 md:text-lg flex flex-col gap-2 font-normal ">
   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
   <li>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>
   <li>Nulla quis sem at nibh elementum imperdiet.</li>
@@ -93,7 +93,7 @@ export default function Home() {
      
      {/* <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p> */}
      <h2 className="text-3xl font-semibold mt-8  md:text-4xl md:mt-12">Quality Service from a committed company.</h2>
-     <p className="mt-6 md:text-lg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+     <p className="mt-6 md:mt-10 md:text-lg md:leading-loose"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
         Nulla quis sem at nibh elementum imperdiet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
