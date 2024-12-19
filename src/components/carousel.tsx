@@ -40,7 +40,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
             layout="fill"
             objectFit="cover"
             style={{objectFit: "fill"}}
-            className="rounded-lg "
+            className="rounded-md md:rounded-lg"
           />
         </div>
       ))}

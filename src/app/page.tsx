@@ -33,7 +33,7 @@ export default function Home() {
           
           ">
           <div className="absolute top-0 w-full p-9 pt-0 z-30 ">  
-              <h1 className="absolute top-[3rem] left-[2rem] z-30 text-white text-5xl font-bold max-w-96   md:top-36 md:text-7xl   md:leading-tight  ">Hamiter Construction Company</h1>
+              <h1 className="absolute top-[3rem] left-[1rem] z-30 text-white text-5xl font-bold max-w-96   md:top-36 md:text-7xl   md:leading-tight  ">Hamiter Construction Company</h1>
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
             
@@ -42,7 +42,7 @@ export default function Home() {
                const offset = 80; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });}
-             }} className="absolute top-[14.5rem] left-[2rem] md:top-[30rem] md:left-26 md:h-12 z-30 bg-green-500 opacity-90 "  >Get Started</Button>
+             }} className="absolute top-[14.5rem] left-[1rem] md:top-[30rem] md:left-26 md:h-12 z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
          <div className="rounded-4xl">
           <Image
@@ -51,7 +51,7 @@ export default function Home() {
             layout="fill"
             objectFit="cover"
             style={{objectFit: "fill"}}
-            className="rounded-lg "
+            className=" rounded-md md:rounded-lg "
           />
 </div>
     </div>
