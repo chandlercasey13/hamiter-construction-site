@@ -21,7 +21,7 @@ const images = [
 
 export default function Home() {
     return (
-    <section className="max-w-6xl">
+    <section className="max-w-6xl ">
       <div id="start-section" className=" flex flex-col items-center justify-start  h-auto bg-white text-black  ">
         
       
@@ -33,7 +33,7 @@ export default function Home() {
           
           ">
           <div className="absolute top-0 w-full p-9 pt-0 z-30 ">  
-              <h1 className="absolute top-[3rem] left-[1rem] z-30 text-white text-5xl font-bold max-w-96   md:top-36 md:text-7xl   md:leading-tight  ">Hamiter Construction Company</h1>
+              <h1 className="absolute top-[3rem] left-[1rem] z-30 text-white text-5xl leading-tight font-bold max-w-96   md:top-36 md:text-7xl   md:leading-tight  ">Hamiter Construction Company</h1>
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
             
@@ -42,7 +42,7 @@ export default function Home() {
                const offset = 80; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });}
-             }} className="absolute top-[14.5rem] left-[1rem] md:top-[30rem] md:left-26 md:h-12 z-30 bg-green-500 opacity-90 "  >Get Started</Button>
+             }} className="absolute top-[16rem] left-[1.5rem] md:top-[30rem] md:left-26 md:h-12 z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
          <div className="rounded-4xl">
           <Image
@@ -55,10 +55,10 @@ export default function Home() {
           />
 </div>
     </div>
-<div className="px-7 mt-8 w-full md:mt-12 ">
+<div className="px-5 mt-8 w-full md:mt-12 ">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
-     <h2 id="services-section" className="text-3xl font-semibold md:text-4xl  ">Expert Solutions for your General Contracting Needs</h2>
+     <h2 id="services-section" className="text-3xl font-semibold md:text-4xl   ">Expert Solutions for your General Contracting Needs</h2>
      <p className="mt-6 md:mt-10 font-medium md:text-xl"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. 
         </p>
@@ -74,7 +74,7 @@ export default function Home() {
 <br/>
 </div>
 
-<div className="px-6 w-full mt-8  md:mt-12 ">
+<div className="px-5 w-full mt-8  md:mt-12 ">
 
 {/* <p  className="text-sm font-normal h-8 mt-8 mb-2"></p> */}
 <h2 className="text-3xl font-semibold mb-4 md:mb-12 md:text-4xl  ">Our Recent Work</h2>
@@ -88,7 +88,7 @@ export default function Home() {
 
 
 
-     <div id="about-section" className="px-6 ">
+     <div id="about-section" className="px-5 ">
 
      
      {/* <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p> */}
