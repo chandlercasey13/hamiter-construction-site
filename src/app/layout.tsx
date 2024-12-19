@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <MobileMenu />
-        <main className="pt-14  bg-white">
+        <main className="pt-14  bg-white w-screen flex flex-col justify-center items-center  ">
           {children}
         </main>
       </body>

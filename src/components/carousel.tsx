@@ -24,12 +24,12 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
   }, [images.length, interval])
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto h-80 overflow-hidden ">
+    <div className="relative w-full mx-auto h-80 md:h-[40rem]  overflow-hidden  ">
           
       {images.map((src, index) => (
         <div
           key={src}
-          className={`relative w-full h-full transition-opacity duration-1000 ease-in-out ${
+          className={`relative w-full h-full  transition-opacity duration-1000 ease-in-out ${
             index === currentIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
