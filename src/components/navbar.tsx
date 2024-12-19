@@ -1,3 +1,6 @@
+
+
+"use client"
 import Link from 'next/link'
 
 const Navbar = () => {
@@ -11,10 +14,50 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="/" className="text-gray-600 hover:text-gray-800">Home</Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-800">About</Link>
-            <Link href="/services" className="text-gray-600 hover:text-gray-800">Services</Link>
-            <Link href="/contact" className="text-gray-600 hover:text-gray-800">Contact</Link>
+            <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
+             const target = document.getElementById("start-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+               
+             
+          }}>Home</button>
+            <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
+             const target = document.getElementById("about-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+               
+             
+          }}>About</button>
+             <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
+             const target = document.getElementById("services-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+               
+             
+          }}>Services</button>
+            <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
+             const target = document.getElementById("contact-section");
+             if (target) {
+               const offset = 80; // Adjust offset as needed
+               const y = target.getBoundingClientRect().top + window.scrollY - offset;
+               window.scrollTo({ top: y, behavior: "smooth" });
+             }
+                
+               
+             
+          }}>Contact</button>
           </div>
         </div>
       </div>

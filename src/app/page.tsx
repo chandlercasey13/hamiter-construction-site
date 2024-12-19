@@ -27,7 +27,7 @@ export default function Home() {
       
          
           
-          <div className=" relative w-full h-80 mx-auto flex flex-col items-center justify-center bg-gray-800
+          <div className=" relative w-full h-80 mx-auto flex flex-col items-center justify-center  bg-gray-white
            md:h-[40rem] 
           
           
@@ -44,15 +44,16 @@ export default function Home() {
                window.scrollTo({ top: y, behavior: "smooth" });}
              }} className="absolute top-[14.5rem] left-[2rem] md:top-[30rem] md:left-26 md:h-12 z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
-         
+         <div className="rounded-4xl">
           <Image
             src={images[0]}
             alt={`image1`}
             layout="fill"
             objectFit="cover"
             style={{objectFit: "fill"}}
+            className="rounded-lg "
           />
-
+</div>
     </div>
 <div className="px-7 mt-8 w-full md:mt-12 ">
 
