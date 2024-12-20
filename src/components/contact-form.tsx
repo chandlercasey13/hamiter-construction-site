@@ -46,10 +46,11 @@ export function ContactForm() {
         alert('Submission failed: ' + result.error)
       }
     } catch (error) {
+        console.log(error)
       alert('An error occurred: ' )
     }
     setIsSubmitting(false)
-    //form.reset()
+    form.reset()
   }
 
   return (
