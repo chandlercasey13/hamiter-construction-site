@@ -6,8 +6,8 @@ import MobileMenu from '../components/mobile-menu'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Mobile Menu Demo',
-  description: 'A demo of a mobile hamburger menu with four routes',
+  title: 'Hamiter Construction',
+  description: '',
 }
 
 export default function RootLayout({
@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+     
       <body className={inter.className}>
         <Navbar />
         <MobileMenu />
