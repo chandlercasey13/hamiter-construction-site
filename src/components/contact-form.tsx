@@ -92,7 +92,7 @@ export function ContactForm() {
             <FormMessage />
           </FormItem>
         )} />
-        <Button type="submit" disabled={isSubmitting}>
+        <Button className='' type="submit" disabled={isSubmitting}>
           {isSubmitting ? 'Submitting...' : 'Submit'}
         </Button>
       </form>

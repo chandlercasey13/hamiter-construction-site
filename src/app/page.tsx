@@ -21,19 +21,19 @@ const images = [
 
 export default function Home() {
     return (
-    <section className="max-w-6xl ">
-      <div id="start-section" className=" flex flex-col items-center justify-start  h-auto bg-white text-black  ">
+    <section className="max-w-7xl overflow-x-hidden   ">
+      <div id="start-section" className=" flex flex-col items-center justify-start  h-auto  bg-white text-black   ">
         
       
          
           
           <div className=" relative w-full h-80 mx-auto flex flex-col items-center justify-center  bg-gray-white
-           md:h-[40rem] 
+           md:h-[55rem] 
           
           
           ">
-          <div className="absolute top-0 w-full p-9 pt-0 z-30 ">  
-              <h1 className="absolute top-[3rem] left-[2rem] z-30 text-white text-5xl leading-tight font-bold max-w-96   md:top-36 md:text-7xl   md:leading-tight  ">Hamiter Construction Company</h1>
+          <div className="absolute top-0 w-full  p-9 pt-0 z-30 ">  
+              <h1 className="absolute top-[3rem] left-[2rem] z-30 text-white text-5xl leading-tight font-bold max-w-96   md:top-[11rem] md:text-[7.5rem] md:left-[3rem]   md:leading-tight  ">Hamiter Construction Company</h1>
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
             
@@ -42,16 +42,16 @@ export default function Home() {
                const offset = 80; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });}
-             }} className="absolute top-[16rem] left-[2.5rem] md:top-[30rem] md:left-26 md:h-12 z-30 bg-green-500 opacity-90 "  >Get Started</Button>
+             }} className="absolute top-[16rem] left-[2.5rem] md:top-[43rem] md:left-[5rem] md:h-16 md:w-40 md:text-lg z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
-         <div className="rounded-4xl">
+         <div className="rounded-4xl  ">
           <Image
             src={images[0]}
             alt={`image1`}
             layout="fill"
             objectFit="cover"
             style={{objectFit: "fill"}}
-            className=" rounded-md md:rounded-sm "
+            className=" rounded-md md:rounded-none  "
           />
 </div>
     </div>
@@ -59,12 +59,12 @@ export default function Home() {
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
      <h2 id="services-section" className="text-3xl font-semibold md:text-4xl   ">Expert Solutions for your General Contracting Needs</h2>
-     <p className="mt-6 md:mt-10 font-medium md:text-xl"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+     <p className="mt-6 md:mt-10 font-medium md:text-2xl"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. 
         </p>
 
         <br/>
-        <ul className="list-disc px-4 md:text-lg flex flex-col gap-2 font-normal ">
+        <ul className="list-disc px-4 md:text-lg flex flex-col gap-2 md:gap-4 font-normal ">
   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
   <li>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>
   <li>Nulla quis sem at nibh elementum imperdiet.</li>
@@ -93,7 +93,7 @@ export default function Home() {
      
      {/* <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p> */}
      <h2 className="text-3xl font-semibold mt-8  md:text-4xl md:mt-12">Quality Service from a committed company.</h2>
-     <p className="mt-6 md:mt-10 md:text-lg md:leading-loose"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+     <p className="mt-6 md:mt-10 md:text-lg  md:leading-[2.5rem]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
         Nulla quis sem at nibh elementum imperdiet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.

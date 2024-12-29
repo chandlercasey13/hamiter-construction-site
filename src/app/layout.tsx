@@ -18,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
      
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-x-hidden` }>
         <Navbar />
         <MobileMenu />
-        <main className="pt-14  bg-white w-screen flex flex-col justify-center items-center  ">
+        <main className="pt-14  bg-white w-screen flex flex-col justify-center items-center overflow-x-hidden   ">
           {children}
         </main>
       </body>

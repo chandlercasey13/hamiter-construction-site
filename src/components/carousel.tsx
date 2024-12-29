@@ -24,7 +24,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
   }, [images.length, interval])
 
   return (
-    <div className="relative w-full mx-auto h-80 md:h-[40rem]  overflow-hidden  ">
+    <div className="relative w-full mx-auto h-80 md:h-[49rem]  overflow-hidden  ">
           
       {images.map((src, index) => (
         <div
@@ -40,7 +40,7 @@ const Carousel: React.FC<CarouselProps> = ({images,  interval = 3000 }) => {
             layout="fill"
             objectFit="cover"
             style={{objectFit: "fill"}}
-            className="rounded-md md:rounded-lg"
+            className="rounded-md md:rounded-sm"
           />
         </div>
       ))}

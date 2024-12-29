@@ -29,7 +29,7 @@ const MobileMenu = () => {
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } z-40`}
       >
-        <nav className="flex flex-col  py-4">
+        <nav className="flex flex-col  py-4 ">
         <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
              const target = document.getElementById("start-section");
              if (target) {
