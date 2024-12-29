@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
-      <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-[1rem]">
+      <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-[2rem]">
         <div className="flex justify-between items-center h-14 ">
           <div className="flex-shrink-0 flex items-center ">
             <Link href="/" className="text-lg font-semibold text-gray-800">
@@ -26,7 +26,7 @@ const Navbar = () => {
              
           }}>Home</button>
             <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
-             const target = document.getElementById("about-section");
+             const target = document.getElementById("services-section");
              if (target) {
                const offset = 80; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
@@ -37,7 +37,7 @@ const Navbar = () => {
              
           }}>About</button>
              <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
-             const target = document.getElementById("services-section");
+             const target = document.getElementById("about-section");
              if (target) {
                const offset = 80; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;

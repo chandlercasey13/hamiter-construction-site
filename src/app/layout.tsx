@@ -8,6 +8,18 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Hamiter Construction',
   description: '',
+  icons: {
+    icon: '/favicon.ico', // Path to your favicon in the public directory
+    apple: '/apple-touch-icon.png',
+    other: [
+      {
+        url: '/icon-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      // ... other icons
+    ],
+  },
 }
 
 export default function RootLayout({

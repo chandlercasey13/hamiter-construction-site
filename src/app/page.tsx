@@ -8,9 +8,10 @@ import { Button } from "@/components/ui/button"
 import { ContactForm } from '../components/contact-form'
 const images = [
 
-  // 'https://www.aplaceformom.com/image/apfm-web-api/493754/skyline-residential-homes-care-homes-garland-tx.jpg?t=web_apfm_community_thumbnails',
+  
   'https://cdn.brookfieldresidential.net/-/media/brp/global/modules/news-and-blog/corporate/guide-to-closing-costs/exterior-of-the-norwich-plan-in-the-traditional-collection-at-elyson-by-brookfield-residential-in-ka.jpg?rev=20bc9ee572f94fb79f97110e7327c0ab',
-  '/house1.jpg',
+ 
+  'https://www.thehousedesigners.com/images/plans/01/JBZ/bulk/9463/3141-day-rendering.webp'
 ]
 
 
