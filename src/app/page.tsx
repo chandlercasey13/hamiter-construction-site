@@ -1,5 +1,12 @@
 "use client";
 
+import BlurFade from "@/components/ui/blur-fade";
+import { FadeText } from "@/components/ui/fade-text";
+
+
+
+
+
 
 import Carousel from "@/components/carousel"
 
@@ -17,22 +24,26 @@ const images = [
 
 
 
+const BLUR_FADE_DELAY = 0.04;
+
 
 
 
 export default function Home() {
     return (
     <section className="max-w-7xl overflow-x-hidden   ">
+      <BlurFade delay={BLUR_FADE_DELAY} direction="right">
       <div id="start-section" className=" flex flex-col items-center justify-start  h-auto  bg-white text-black   ">
         
       
-         
+      
           
           <div className=" relative w-full h-80 mx-auto flex flex-col items-center justify-center  bg-gray-white
            md:h-[55rem] 
           
           
           ">
+           
           <div className="absolute top-0 w-full  p-9 pt-0 z-30 ">  
               <h1 className="absolute top-[3rem] left-[2rem] z-30 text-white text-5xl leading-tight font-bold max-w-96   md:top-[11rem] md:text-[7.5rem] md:left-[3rem]   md:leading-tight  ">Hamiter Construction Company</h1>
            
@@ -45,6 +56,7 @@ export default function Home() {
                window.scrollTo({ top: y, behavior: "smooth" });}
              }} className="absolute top-[16rem] left-[2.5rem] md:top-[43rem] md:left-[5rem] md:h-16 md:w-40 md:text-lg z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
+            
          <div className="rounded-4xl  ">
           <Image
             src={images[0]}
@@ -55,7 +67,11 @@ export default function Home() {
             className=" rounded-md md:rounded-none  "
           />
 </div>
+
     </div>
+
+
+
 <div className="px-5 mt-8 w-full md:mt-12 ">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
@@ -89,6 +105,8 @@ export default function Home() {
 
 
 
+
+
      <div id="about-section" className="px-5 ">
 
      
@@ -119,7 +137,7 @@ export default function Home() {
 
      
       </div>
-
+      </BlurFade>
       </section>
 
 
