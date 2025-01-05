@@ -123,7 +123,7 @@ export default function Home() {
      </div>
      </div>
 
-     <div  className="min-h-40 w-full flex flex-col items-center justify-start mb-12 mt-2 md:mt-24 md: ">
+     <div  className="min-h-40 w-full flex flex-col items-center justify-start mb-6 mt-2 md:mt-24 md: ">
       <div className="w-full p-2  space-y-4 bg-white mb-10 flex justify-center" >
       <div className="p-4 w-full rounded-lg  " id="contact-section">
         <h1 className="text-3xl font-semibold text-start pb-2 mb-4">Contact Us</h1>
