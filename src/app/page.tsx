@@ -38,14 +38,14 @@ export default function Home() {
       
       
           
-          <div className=" relative w-full h-80 mx-auto flex flex-col items-center justify-center  bg-gray-white
+          <div className=" relative w-full h-[24rem] mx-auto flex flex-col items-center justify-center  bg-gray-white
            md:h-[55rem] 
           
           
           ">
            
           <div className="absolute top-0 w-full  p-9 pt-0 z-30 ">  
-              <h1 className="absolute top-[3rem] left-[1.5rem] z-30 text-white text-5xl leading-tight font-bold max-w-96   md:top-[11rem] md:text-[7.5rem] md:left-[3rem]   md:leading-tight  ">Hamiter Construction Company</h1>
+              <h1 className="absolute top-[3.8rem] left-[1.5rem] z-30 text-white text-[3.4rem] leading-tight font-bold max-w-96   md:top-[11rem] md:text-[7.5rem] md:left-[3rem]   md:leading-tight  ">Hamiter Construction Company</h1>
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
             
@@ -54,7 +54,7 @@ export default function Home() {
                const offset = 80; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });}
-             }} className="absolute top-[16rem] left-[1.75rem] md:top-[43rem] md:left-[5rem] md:h-16 md:w-40 md:text-lg z-30 bg-green-500 opacity-90 "  >Get Started</Button>
+             }} className="absolute top-[18.5rem] left-[1.75rem] md:top-[43rem] md:left-[5rem] md:h-16 md:w-40 md:text-lg z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
             
          <div className="rounded-4xl  ">
