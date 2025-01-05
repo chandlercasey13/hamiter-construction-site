@@ -93,7 +93,7 @@ export default function Home() {
 </div>
 </div>
 
-<div className="px-5 w-full mt-8  md:mt-12 ">
+<div className="px-5 w-full mt-2  md:mt-12 ">
 
 {/* <p  className="text-sm font-normal h-8 mt-8 mb-2"></p> */}
 <h2 className="text-3xl font-semibold mb-4 md:mb-12 md:text-4xl  ">Our Recent Work</h2>
@@ -112,7 +112,7 @@ export default function Home() {
      <div className="w-full flex justify-center p-2">
 
      
-     <div className=" w-full p-4 rounded-lg mt-8 md:mt-12 " id="about-section">
+     <div className=" w-full p-4 rounded-lg mt-2 md:mt-12 " id="about-section">
      <h2 className="text-3xl font-semibold   md:text-4xl ">Quality Service from a committed company.</h2>
      <p className="mt-6 leading-[1.8rem] md:mt-10 md:text-lg  md:leading-[2.5rem]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
@@ -123,7 +123,7 @@ export default function Home() {
      </div>
      </div>
 
-     <div  className="min-h-40 w-full flex flex-col items-center justify-start mb-12 mt-8 md:mt-24 md: ">
+     <div  className="min-h-40 w-full flex flex-col items-center justify-start mb-12 mt-2 md:mt-24 md: ">
       <div className="w-full p-2  space-y-4 bg-white mb-10 flex justify-center" >
       <div className="p-4 w-full rounded-lg  " id="contact-section">
         <h1 className="text-3xl font-semibold text-start pb-2 mb-4">Contact Us</h1>
