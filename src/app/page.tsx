@@ -76,8 +76,8 @@ export default function Home() {
 <div className="w-full rounded-lg p-4 " id="services-section">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
-     <h2  className="text-3xl font-semibold md:text-4xl   ">Expert Solutions for your General Contracting Needs</h2>
-     <p className="mt-6 md:mt-10 font-medium md:text-2xl"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+     <h2  className="text-[1.7rem] font-semibold md:text-4xl   ">Expert Solutions for your Contracting Needs</h2>
+     <p className="mt-4 md:mt-10 font-medium md:text-2xl"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. 
         </p>
 
