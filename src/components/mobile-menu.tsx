@@ -12,6 +12,14 @@ const MobileMenu = () => {
     document.body.style.overflow = isOpen ? 'auto' : 'hidden'
   }
 
+  const triggerAnimation = (target: HTMLElement | null) => {
+    if (target) {
+      target.classList.remove("animate-highlight"); // Reset animation
+      void target.offsetWidth; // Force reflow to restart animation
+      target.classList.add("animate-highlight"); // Add the animation class
+    }
+  };
+
   return (
     <div className="md:hidden">
       {/* Hamburger Icon */}
@@ -37,7 +45,7 @@ const MobileMenu = () => {
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
-                
+          
                 toggleMenu(); 
              
           }}>
@@ -51,7 +59,7 @@ const MobileMenu = () => {
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
-                
+             triggerAnimation(target)
             toggleMenu(); 
          
       }}>
@@ -64,20 +72,21 @@ const MobileMenu = () => {
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
-                
+             triggerAnimation(target)
                 toggleMenu(); 
              
           }}>
             About
           </button>
           <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
+             
              const target = document.getElementById("contact-section");
              if (target) {
                const offset = 100; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
-                
+                triggerAnimation(target)
                 toggleMenu(); 
              
           }}>

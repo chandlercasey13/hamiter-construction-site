@@ -9,6 +9,16 @@ export default {
   ],
   theme: {
   	extend: {
+		animation: {
+			highlight: 'bgHighlight .75s ease-in-out',
+		  },
+		  keyframes: {
+			bgHighlight: {
+			  '0%': { backgroundColor: 'rgba(0, 0, 0, 0.1)' },
+			  '50%': { backgroundColor: 'rgba(0, 0, 0, 0.2)' },
+			  '100%': { backgroundColor: 'transparent' },
+			},
+		  },
   		colors: {
   			themecolor: '#3f456b',
   			background: 'hsl(var(--background))',
