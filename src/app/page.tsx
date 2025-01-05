@@ -1,7 +1,7 @@
 "use client";
 
 import BlurFade from "@/components/ui/blur-fade";
-import { FadeText } from "@/components/ui/fade-text";
+// import { FadeText } from "@/components/ui/fade-text";
 
 
 
@@ -32,7 +32,7 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Home() {
     return (
     <section className="max-w-7xl overflow-x-hidden   ">
-      <BlurFade delay={BLUR_FADE_DELAY} direction="right">
+      <BlurFade delay={BLUR_FADE_DELAY} direction="up">
       <div id="start-section" className=" flex flex-col items-center justify-start  h-auto  bg-white text-black   ">
         
       
