@@ -45,7 +45,7 @@ export default function Home() {
           ">
            
           <div className="absolute top-0 w-full  p-9 pt-0 z-30 ">  
-              <h1 className="absolute top-[3rem] left-[2rem] z-30 text-white text-5xl leading-tight font-bold max-w-96   md:top-[11rem] md:text-[7.5rem] md:left-[3rem]   md:leading-tight  ">Hamiter Construction Company</h1>
+              <h1 className="absolute top-[3rem] left-[1.5rem] z-30 text-white text-5xl leading-tight font-bold max-w-96   md:top-[11rem] md:text-[7.5rem] md:left-[3rem]   md:leading-tight  ">Hamiter Construction Company</h1>
            
             <p className="absolute top-44 z-30 text-white text-sm font-bold"></p>
             
@@ -54,7 +54,7 @@ export default function Home() {
                const offset = 80; // Adjust offset as needed
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });}
-             }} className="absolute top-[16rem] left-[2.5rem] md:top-[43rem] md:left-[5rem] md:h-16 md:w-40 md:text-lg z-30 bg-green-500 opacity-90 "  >Get Started</Button>
+             }} className="absolute top-[16rem] left-[1.75rem] md:top-[43rem] md:left-[5rem] md:h-16 md:w-40 md:text-lg z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
             
          <div className="rounded-4xl  ">
@@ -112,7 +112,7 @@ export default function Home() {
      
      {/* <p  className="text-sm font-normal h-8 mt-8 mb-2">About Us</p> */}
      <h2 className="text-3xl font-semibold mt-8  md:text-4xl md:mt-12">Quality Service from a committed company.</h2>
-     <p className="mt-6 md:mt-10 md:text-lg  md:leading-[2.5rem]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+     <p className="mt-6 leading-[1.8rem] md:mt-10 md:text-lg  md:leading-[2.5rem]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
         Nulla quis sem at nibh elementum imperdiet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
@@ -129,7 +129,11 @@ export default function Home() {
       </div>
 
 
-      <div className="h-2 w-full border-t "></div>
+      <div className="h-[2rem] w-full border-t flex items-center justify-start pt-8  ">
+
+      <img className="pl-2 h-4 pt-[.01rem]" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZZJREFUSEu1VdtxAjEMFJUklKEvoJKESkIqIakk8KUyQieJ1yNpdH6dPzjPMOb80K5WD+9o47Hb2D6tAojIkYgORIQZv0eabzrfmRn/u6MLICKvRHRVoyMbADwxM+ZqNAFE5F2N4wIufiUjma0Cw5OXtIdzIJLPMPNniVABFMZx6dyjr2Bvaf+iZy4lyAJAL/zqYbg91NeAA6lKrhLgRzVfMNdAf4Qgw/ZCEhHBPjy5MfPJwB0gsmDmfYNdS6kzMyM+pN6DIGLi3kcAY+A6KnNcwsjragjfRzMeyFQ2IgBSElkRWdlaFbyWO4GQyxQBEFy4t7ecFpFqbVQQIUkeJvNTATQWf5iTnNl2BLAM8gCJiK3NSmQF6lk4G2Sr5m+VCFIeyqIKqeqEIgDKH4xdP3XZMmOYpnrWYuaJMltoYGyFZkBloZmc7UILxWKtYkp3vWfe49OzcBHkTuWuggTdYaLqX712HXW3B+auDw0M5SCHdu2VXgbqGQ8OOi6COv/gRBZa/sYYWmO4V2stffVNHrWGmb3NAf4Byiv2GbczExsAAAAASUVORK5CYII="/>
+<p className="text-sm text-black/30 pl-1">Hamiter Construction, LLC. All Rights Reserved</p>
+      </div>
 
 
     </div>
