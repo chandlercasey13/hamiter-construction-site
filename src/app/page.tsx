@@ -72,8 +72,8 @@ export default function Home() {
 
 
 
-<div className=" mt-8 w-full md:mt-12 flex justify-center  " >
-<div className="p-5 w-[95%] rounded-lg mt-8 md:mt-12 " id="services-section">
+<div className=" mt-1 w-full md:mt-12 flex justify-center p-2   " >
+<div className="w-full rounded-lg p-4 " id="services-section">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
      <h2  className="text-3xl font-semibold md:text-4xl   ">Expert Solutions for your General Contracting Needs</h2>
@@ -109,10 +109,10 @@ export default function Home() {
 
 
 
-     <div className="w-full flex justify-center">
+     <div className="w-full flex justify-center p-2">
 
      
-     <div className="p-5 w-[95%] rounded-lg mt-8 md:mt-12 " id="about-section">
+     <div className=" w-full p-4 rounded-lg mt-8 md:mt-12 " id="about-section">
      <h2 className="text-3xl font-semibold   md:text-4xl ">Quality Service from a committed company.</h2>
      <p className="mt-6 leading-[1.8rem] md:mt-10 md:text-lg  md:leading-[2.5rem]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
@@ -124,8 +124,8 @@ export default function Home() {
      </div>
 
      <div  className="min-h-40 w-full flex flex-col items-center justify-start mb-12 mt-8 md:mt-24 md: ">
-      <div className="w-full   space-y-4 bg-white mb-10 flex justify-center" >
-      <div className="p-5 w-[95%] rounded-lg  " id="contact-section">
+      <div className="w-full p-2  space-y-4 bg-white mb-10 flex justify-center" >
+      <div className="p-4 w-full rounded-lg  " id="contact-section">
         <h1 className="text-3xl font-semibold text-start pb-2 mb-4">Contact Us</h1>
         <ContactForm  />
         </div>
