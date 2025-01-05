@@ -132,7 +132,7 @@ export default function Home() {
       </div>
 
 
-      <div className="h-[.5rem] w-full border-t flex items-center justify-start pt-5  ">
+      <div className="h-[.5rem] w-full border-t flex items-center justify-start pt-5 px-4  ">
 
       <img className="pl-2 h-4 pt-[.01rem]" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZZJREFUSEu1VdtxAjEMFJUklKEvoJKESkIqIakk8KUyQieJ1yNpdH6dPzjPMOb80K5WD+9o47Hb2D6tAojIkYgORIQZv0eabzrfmRn/u6MLICKvRHRVoyMbADwxM+ZqNAFE5F2N4wIufiUjma0Cw5OXtIdzIJLPMPNniVABFMZx6dyjr2Bvaf+iZy4lyAJAL/zqYbg91NeAA6lKrhLgRzVfMNdAf4Qgw/ZCEhHBPjy5MfPJwB0gsmDmfYNdS6kzMyM+pN6DIGLi3kcAY+A6KnNcwsjragjfRzMeyFQ2IgBSElkRWdlaFbyWO4GQyxQBEFy4t7ecFpFqbVQQIUkeJvNTATQWf5iTnNl2BLAM8gCJiK3NSmQF6lk4G2Sr5m+VCFIeyqIKqeqEIgDKH4xdP3XZMmOYpnrWYuaJMltoYGyFZkBloZmc7UILxWKtYkp3vWfe49OzcBHkTuWuggTdYaLqX712HXW3B+auDw0M5SCHdu2VXgbqGQ8OOi6COv/gRBZa/sYYWmO4V2stffVNHrWGmb3NAf4Byiv2GbczExsAAAAASUVORK5CYII="/>
 <p className="text-sm text-black/30 pl-1">Hamiter Construction, LLC. All Rights Reserved</p>
