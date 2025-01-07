@@ -15,7 +15,7 @@ export default {
 		  keyframes: {
 			bgHighlight: {
 			  '0%': { backgroundColor: 'rgba(0, 0, 0, 0.1)' },
-			  '50%': { backgroundColor: 'rgba(0, 0, 0, 0.2)' },
+			  '50%': { backgroundColor: 'rgba(0, 0, 0, 0.15)' },
 			  '100%': { backgroundColor: 'transparent' },
 			},
 		  },

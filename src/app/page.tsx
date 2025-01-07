@@ -72,7 +72,7 @@ export default function Home() {
 
 
 
-<div className=" mt-1 w-full md:mt-12 flex justify-center p-2   " >
+<div className="  w-full md:mt-12 flex justify-center p-2   " >
 <div className="w-full rounded-lg p-4 " id="services-section">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
@@ -93,7 +93,8 @@ export default function Home() {
 </div>
 </div>
 
-<div className="px-5 w-full mt-2  md:mt-12 ">
+<div className="p-2 w-full   md:mt-12">
+<div className="p-4   ">
 
 {/* <p  className="text-sm font-normal h-8 mt-8 mb-2"></p> */}
 <h2 className="text-3xl font-semibold mb-4 md:mb-12 md:text-4xl  ">Our Recent Work</h2>
@@ -104,7 +105,7 @@ export default function Home() {
    Nulla quis sem at nibh elementum imperdiet.</p> */}
 
 </div>
-
+</div>
 
 
 
@@ -112,7 +113,7 @@ export default function Home() {
      <div className="w-full flex justify-center p-2">
 
      
-     <div className=" w-full p-4 rounded-lg mt-2 md:mt-12 " id="about-section">
+     <div className=" w-full p-4 rounded-lg  md:mt-12 " id="about-section">
      <h2 className="text-3xl font-semibold   md:text-4xl ">Quality Service from a committed company.</h2>
      <p className="mt-6 leading-[1.8rem] md:mt-10 md:text-lg  md:leading-[2.5rem]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
