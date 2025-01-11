@@ -24,18 +24,17 @@ const Navbar = () => {
             <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
              const target = document.getElementById("start-section");
              if (target) {
-               const offset = 80; // Adjust offset as needed
+               const offset = 80; 
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
-             triggerAnimation(target)
                
              
           }}>Home</button>
             <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
              const target = document.getElementById("services-section");
              if (target) {
-               const offset = 80; // Adjust offset as needed
+               const offset = 80; 
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
@@ -46,7 +45,7 @@ const Navbar = () => {
              <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
              const target = document.getElementById("about-section");
              if (target) {
-               const offset = 80; // Adjust offset as needed
+               const offset = 80; 
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
@@ -58,7 +57,7 @@ const Navbar = () => {
             <button className="text-gray-600 hover:text-gray-800" onClick={()=> {
              const target = document.getElementById("contact-section");
              if (target) {
-               const offset = 80; // Adjust offset as needed
+               const offset = 80; 
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
