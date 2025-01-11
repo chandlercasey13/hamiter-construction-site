@@ -14,15 +14,15 @@ const MobileMenu = () => {
 
   const triggerAnimation = (target: HTMLElement | null) => {
     if (target) {
-      target.classList.remove("animate-highlight"); // Reset animation
-      void target.offsetWidth; // Force reflow to restart animation
-      target.classList.add("animate-highlight"); // Add the animation class
+      target.classList.remove("animate-highlight"); 
+      void target.offsetWidth; 
+      target.classList.add("animate-highlight"); 
     }
   };
 
   return (
     <div className="md:hidden">
-      {/* Hamburger Icon */}
+     
       <button
         onClick={toggleMenu}
         className="fixed top-2 right-4 z-50 p-2 rounded-md bg-white text-black"
@@ -30,9 +30,7 @@ const MobileMenu = () => {
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
-
-      {/* Sliding Menu */}
-      <div
+ <div
         className={`fixed top-14 right-0 bottom-0 w-64 h-screen   bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } z-40`}
@@ -41,7 +39,7 @@ const MobileMenu = () => {
         <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
              const target = document.getElementById("start-section");
              if (target) {
-               const offset = 80; // Adjust offset as needed
+               const offset = 80; 
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
@@ -55,7 +53,7 @@ const MobileMenu = () => {
           <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
              const target = document.getElementById("services-section");
              if (target) {
-               const offset = 80; // Adjust offset as needed
+               const offset = 80; 
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
@@ -68,7 +66,7 @@ const MobileMenu = () => {
           <button className="text-start py-4 px-6 text-lg hover:bg-gray-100 transition-colors duration-200 text-black" onClick={()=> {
              const target = document.getElementById("about-section");
              if (target) {
-               const offset = 80; // Adjust offset as needed
+               const offset = 80;
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
@@ -82,7 +80,7 @@ const MobileMenu = () => {
              
              const target = document.getElementById("contact-section");
              if (target) {
-               const offset = 100; // Adjust offset as needed
+               const offset = 100;
                const y = target.getBoundingClientRect().top + window.scrollY - offset;
                window.scrollTo({ top: y, behavior: "smooth" });
              }
@@ -95,7 +93,7 @@ const MobileMenu = () => {
         </nav>
       </div>
 
-      {/* Overlay */}
+    
       {isOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-30"

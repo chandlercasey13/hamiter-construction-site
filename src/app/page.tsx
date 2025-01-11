@@ -31,15 +31,15 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Home() {
     return (
-    <section className="max-w-7xl overflow-x-hidden   ">
+    <section className="max-w-6xl overflow-x-hidden   ">
       <BlurFade delay={BLUR_FADE_DELAY} direction="up">
-      <div id="start-section" className=" flex flex-col items-center justify-start  h-auto  bg-white text-black   ">
+      <div id="start-section" className=" flex flex-col items-center justify-start  h-auto  bg-white text-black overflow-y-hidden  ">
         
       
       
           
-          <div className=" relative w-full h-[24rem] mx-auto flex flex-col items-center justify-center  bg-gray-white
-           md:h-[55rem] 
+          <div className=" relative w-full h-[24rem] mx-auto flex flex-col items-center justify-center overflow-y-hidden  bg-gray-white
+           md:h-[57rem] 
           
           
           ">
@@ -57,7 +57,7 @@ export default function Home() {
              }} className="absolute top-[18.5rem] left-[1.75rem] md:top-[43rem] md:left-[5rem] md:h-16 md:w-40 md:text-lg z-30 bg-green-500 opacity-90 "  >Get Started</Button>
             </div>
             
-         <div className="rounded-4xl  ">
+         <div className="rounded-4xl   ">
           <Image
             src={images[0]}
             alt={`image1`}
@@ -72,7 +72,7 @@ export default function Home() {
 
 
 
-<div className="  w-full md:mt-12 flex justify-center p-2   " >
+<div className="  w-full md:mt-2 flex justify-center p-2   " >
 <div className="w-full rounded-lg p-4 " id="services-section">
 
 {/* <p className="text-sm font-normal h-8 mt-8 mb-2">Our Services</p> */}
@@ -82,7 +82,7 @@ export default function Home() {
         </p>
 
         <br/>
-        <ul className="list-disc px-4 md:text-lg flex flex-col gap-2 md:gap-4 font-normal ">
+        <ul className="list-disc  px-4 md:text-lg flex flex-col gap-2 md:gap-3 font-normal ">
   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
   <li>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>
   <li>Nulla quis sem at nibh elementum imperdiet.</li>
@@ -93,11 +93,11 @@ export default function Home() {
 </div>
 </div>
 
-<div className="p-2 w-full   md:mt-12">
-<div className="p-4   ">
+<div className="p-2 md:p-0 w-full   ">
+<div className="p-4 md:p-0   ">
 
 {/* <p  className="text-sm font-normal h-8 mt-8 mb-2"></p> */}
-<h2 className="text-3xl font-semibold mb-4 md:mb-12 md:text-4xl  ">Our Recent Work</h2>
+<h2 className="text-3xl font-semibold mb-4 md:mb-6 md:text-4xl md:p-6   ">Our Recent Work</h2>
 <Carousel images={images} interval={5000} />
 {/* <img alt="picture 2" src="house1.jpg" id="about-section" className="h-50 w-full"></img> */}
 {/* <p className="mt-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
@@ -113,7 +113,7 @@ export default function Home() {
      <div className="w-full flex justify-center p-2">
 
      
-     <div className=" w-full p-4 rounded-lg  md:mt-12 " id="about-section">
+     <div className=" w-full p-4 rounded-lg  md:mt-2 " id="about-section">
      <h2 className="text-3xl font-semibold   md:text-4xl ">Quality Service from a committed company.</h2>
      <p className="mt-6 leading-[1.8rem] md:mt-10 md:text-lg  md:leading-[2.5rem]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
@@ -124,7 +124,7 @@ export default function Home() {
      </div>
      </div>
 
-     <div  className="min-h-40 w-full flex flex-col items-center justify-start mb-6 mt-2 md:mt-24 md: ">
+     <div  className="min-h-40 w-full flex flex-col items-center justify-start mb-6 mt-2  md: ">
       <div className="w-full p-2  space-y-4 bg-white mb-10 flex justify-center" >
       <div className="p-4 w-full rounded-lg  " id="contact-section">
         <h1 className="text-3xl font-semibold text-start pb-2 mb-4">Contact Us</h1>
